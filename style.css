@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+html{
+    font-family: 'Roboto';
+}
+
+body{
+    background-color: #FFE2B0;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav{
+    margin-bottom: 20px;
+}
+
+ul{
+    text-align: center;
+    padding: 0;
+}
+
+
+li{
+    display: inline;
+    margin-right: 100px;
+}
+
+
+li:last-child{
+    margin-right: 0;
+}
+
+
+.section-about{
+    height: 640px;
+    background-image: url(img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+.section-about__block{
+    width: 420px;
+    height: 190px;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    position: absolute;
+    top: 349px;
+    left: 730px;
+    opacity: 0.8;
+    padding: 15px 0;
+}
+
+
+.section-about__border{
+    height: 160px;
+    width: 390px;
+    border:1px solid black;
+    margin: 0 auto;
+    padding: 5px 0 0 19px;
+    text-align: left;
+}
+
+.section-about__title{
+    margin-bottom: 9px;
+    font-size: 36px;
+}
+
+.section-about__text{
+    font-size: 14px;
+}
+
+.section-description{
+    margin-bottom: 20px;
+}
+
+.section-description__icon-box{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-description__title{
+    font-size: 96px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-description__text{
+    font-size: 18px;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.section-description__icon-box img{
+    margin-right: 76px;
+}
+
+.section-description__icon-box img:last-child{
+    margin-right: 0;
+}
+
+.section-description__span{
+    color: #F15B40;
+}
+
+.section-map{
+    margin-bottom: 20px;
+}
+
+.section-map__title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: 36px;
+    text-transform: uppercase;
+}
+
+iframe{
+    display: block;
+    margin: 0 auto;
+}
+
+footer{
+    height: 80px;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid #000;
+    width: 1024px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Light.eot');
+    src: url('fonts/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Roboto-Light.woff') format('woff'),
+    url('fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
